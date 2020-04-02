@@ -50,7 +50,7 @@ function showError(errorMessage) {
 	card.insertBefore(errorDiv, heading);
 
 	// Clear error message after 3 seconds
-	setInterval(clearError, 3000);
+	setTimeout(clearError, 3000);
 }
 
 function clearError() {
